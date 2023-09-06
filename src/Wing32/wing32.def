@@ -1,0 +1,13 @@
+LIBRARY WING32
+
+EXPORTS
+		WinGCreateDC
+		WinGRecommendDIBFormat
+		WinGCreateBitmap
+		WinGGetDIBPointer
+		WinGSetDIBColorTable
+		WinGGetDIBColorTable
+		WinGCreateHalftonePalette
+		WinGCreateHalftoneBrush
+		WinGStretchBlt
+		WinGBitBlt

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34024.191
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Wing32", "Wing32\Wing32.vcxproj", "{ED27237E-A598-4BFE-978B-3F2FD19BE856}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ED27237E-A598-4BFE-978B-3F2FD19BE856}.Debug|x86.ActiveCfg = Debug|Win32
+		{ED27237E-A598-4BFE-978B-3F2FD19BE856}.Debug|x86.Build.0 = Debug|Win32
+		{ED27237E-A598-4BFE-978B-3F2FD19BE856}.Release|x86.ActiveCfg = Release|Win32
+		{ED27237E-A598-4BFE-978B-3F2FD19BE856}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {10F1460E-9154-456B-AD0C-2511F99E7538}
+	EndGlobalSection
+EndGlobal
