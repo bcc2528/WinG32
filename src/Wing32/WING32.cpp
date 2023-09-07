@@ -65,7 +65,7 @@
 {
 	DIBSECTION ds;
 
-	if (GetObjectW(hbmp, sizeof(ds), &ds) == sizeof(ds))
+	if (GetObject(hbmp, sizeof(ds), &ds) == sizeof(ds))
 	{
 		bmi->bmiHeader = ds.dsBmih;
 		return ds.dsBm.bmBits;
