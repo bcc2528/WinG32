@@ -17,6 +17,8 @@ DirectXの先祖にあたるWindows用ゲームグラフィックAPI「WinG」�
 
 と様々な問題を抱えているのでGDIを経由して描画する代替DLLを作成。Windowsシステムフォルダにコピーせずとも、アプリの実行ファイル(exe)と同一フォルダにこのwing32.dllをコピーすれば起動するようになっている。
 
+
+
 # 動作確認済みタイトル(Windows 10 x64環境にてwing32.dllをexeファイルと同一フォルダにコピーして実行)
 
 「オルゴール サイキック・ディテクティヴ・シリーズ Vol.4」
@@ -27,6 +29,7 @@ DirectXの先祖にあたるWindows用ゲームグラフィックAPI「WinG」�
 「大逆鱗 for Windows 95」
 
 ![Dai Gekirin](/Samples/DaiGekirin.png)
+
 
 
 # 動作不可
