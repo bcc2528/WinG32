@@ -31,6 +31,10 @@ DirectXの先祖にあたるWindows用ゲームグラフィックAPI「WinG」�
 ![Dai Gekirin](/Samples/DaiGekirin.png)
 
 
+「シムタウン」(インストーラは16bitアプリなので「OTVDM」などを使用する必要あり)
+
+![Sim Town](/Samples/SimTown.PNG)
+
 
 # 動作不可
 
