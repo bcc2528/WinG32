@@ -21,7 +21,7 @@ DirectXの先祖にあたるWindows用ゲームグラフィックAPI「WinG」�
 
 # 動作確認済みタイトル(Windows 10 x64環境にてwing32.dllをexeファイルと同一フォルダにコピーして実行)
 
-WinMASL
+「WinMASL」
 
 ![WinMASL](/Samples/WinMASL.PNG)
 
