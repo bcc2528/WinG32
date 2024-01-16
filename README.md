@@ -21,6 +21,11 @@ DirectXの先祖にあたるWindows用ゲームグラフィックAPI「WinG」�
 
 # 動作確認済みタイトル(Windows 10 x64環境にてwing32.dllをexeファイルと同一フォルダにコピーして実行)
 
+WinMASL
+
+![WinMASL](/Samples/WinMASL.PNG)
+
+
 「オルゴール サイキック・ディテクティヴ・シリーズ Vol.4」
 
 ![Orgal](/Samples/Orgal.png)
@@ -34,8 +39,3 @@ DirectXの先祖にあたるWindows用ゲームグラフィックAPI「WinG」�
 「シムタウン」(インストーラは16bitアプリなので「OTVDM」などを使用する必要あり)
 
 ![Sim Town](/Samples/SimTown.PNG)
-
-
-# 動作不可
-
-WinMASL
