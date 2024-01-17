@@ -63,11 +63,14 @@
  */
  void* WINAPI WinGGetDIBPointer(HBITMAP hbmp, BITMAPINFO* bmi)
 {
-	DIBSECTION ds;
+	 DIBSECTION ds;
 
-	if (GetObject(hbmp, sizeof(ds), &ds) == sizeof(ds))
+	if (GetObjectW(hbmp, sizeof(ds), &ds) == sizeof(ds))
 	{
-		bmi->bmiHeader = ds.dsBmih;
+		if (bmi != nullptr)
+		{
+			bmi->bmiHeader = ds.dsBmih;
+		}
 		return ds.dsBm.bmBits;
 	}
 	return NULL;
