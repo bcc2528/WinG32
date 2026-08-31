@@ -63,9 +63,9 @@
  */
  void* WINAPI WinGGetDIBPointer(HBITMAP hbmp, BITMAPINFO* bmi)
 {
-	 DIBSECTION ds;
+	 DIBSECTION ds{};
 
-	if (GetObjectW(hbmp, sizeof(ds), &ds) == sizeof(ds))
+	if (GetObject(hbmp, sizeof(ds), &ds) == sizeof(ds))
 	{
 		if (bmi != nullptr)
 		{
@@ -145,7 +145,7 @@
 *            DLLMain
 */
 
-BOOL APIENTRY DllMain( HMODULE hModule,
+ BOOL APIENTRY DllMain( HMODULE hModule,
                        DWORD  ul_reason_for_call,
                        LPVOID lpReserved
                      )
@@ -153,13 +153,15 @@ BOOL APIENTRY DllMain( HMODULE hModule,
     switch (ul_reason_for_call)
     {
     case DLL_PROCESS_ATTACH:
+		timeBeginPeriod(1);
 		break;
     case DLL_THREAD_ATTACH:
 		break;
     case DLL_THREAD_DETACH:
 		break;
     case DLL_PROCESS_DETACH:
-        break;
+		timeEndPeriod(1);
+		break;
     }
     return TRUE;
 }

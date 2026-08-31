@@ -5,6 +5,9 @@
 #include <winbase.h>
 #include <wingdi.h>
 #include <winuser.h>
+#include <timeapi.h>
+
+#pragma comment(lib, "winmm.lib")
 
 extern "C" HDC WINAPI WinGCreateDC(void);
 extern "C" BOOL WINAPI WinGRecommendDIBFormat(BITMAPINFO* bmi);
